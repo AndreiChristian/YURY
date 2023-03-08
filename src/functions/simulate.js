@@ -6,6 +6,8 @@ const caseItems = [
   // Add more items and their probabilities here
 ];
 
+export const simulate = (caseItems) => {
+
 // Check that the probabilities add up to 1
 const tolerance = 1e-6;
 const totalProbability = caseItems.reduce(
@@ -72,3 +74,5 @@ console.log(`Total cost: $${totalCost}`);
 console.log(`Total profit: $${totalProfit}`);
 console.log(`Total winnings: $${totalWinnings}`);
 console.log(`Profit margin: ${(totalProfit / totalCost).toFixed(2) * 100}%`);
+
+}
