@@ -11,7 +11,11 @@ const caseItemsSlice = createSlice({
   initialState: {
     caseItems: defaultState,
   },
-  reducers: {},
+  reducers: {
+    addCaseItem(state, action) {
+        state.caseItems.push(action.payload);
+        },
+  },
 });
 
 export const caseItemsActions = caseItemsSlice.actions;
