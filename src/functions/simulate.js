@@ -1,3 +1,4 @@
+// Define the case items and their probabilities of being dropped
 const caseItems = [
   { name: "Item 1", price: 10, probability: 0.1 },
   { name: "Item 2", price: 20, probability: 0.05 },
