@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 100%;
+}
+
+.container form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  height: 50%;
+}
+
+.container input {
+  padding: 1vw;
+  background-color: black;
+  outline: none !important;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+}
+
+.container button {
+  padding: 1vw;
+  background-color: black;
+  outline: none !important;
+  border: 2px solid yellowgreen;
+  border-radius: 20px;
+  color: yellowgreen;
+}
+
+.container button:hover {
+  background-color: yellowgreen;
+  color: black;
+}

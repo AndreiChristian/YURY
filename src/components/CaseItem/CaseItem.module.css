@@ -1,8 +1,21 @@
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6vh;
-    text-align: left;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  width: 50%;
 }
 
+.container > div {
+  width: 12.5vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  outline: 1px solid grey;
+  padding: 1vw;
+  text-align: center;
+}
+
+.container > div:nth-last-child(1){
+    color: red;
+}
